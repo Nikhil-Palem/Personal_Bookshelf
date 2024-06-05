@@ -17,6 +17,7 @@ const Search = ({ addToBookshelf }) => {
   return (
     <div>
       <form onSubmit={searchBooks} className="search-form">
+        <label htmlFor="Bookname">Bookname   </label>
         <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search for books" />
         <button type="submit">Search</button>
       </form>

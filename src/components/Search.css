@@ -5,7 +5,13 @@
     margin-top:2em;
     margin-bottom: 2em;
   }
-  
+  .search-form label{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    padding-right: 5px;
+  }
   .search-form input {
     padding: 0.5em;
     width: 300px;
